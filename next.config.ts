@@ -1,12 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "standalone",
-  /* config options here */
-  typescript: {
-    ignoreBuildErrors: true,
+  output: "export",
+  trailingSlash: true,
+  images: {
+    unoptimized: true,
   },
-  reactStrictMode: false,
+  // Replace 'mts' with your actual repo name
+  basePath: "/mts",
 };
 
 export default nextConfig;
