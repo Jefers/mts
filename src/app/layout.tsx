@@ -18,17 +18,17 @@ export const metadata: Metadata = {
   description: "Plan, forecast, and track your trip expenses with TripScout. A modern, mobile-first Progressive Web App for all your travel planning needs.",
   keywords: ["trip planner", "travel budget", "expense tracker", "PWA", "road trip", "vacation planner"],
   authors: [{ name: "TripScout Team" }],
-  manifest: "/manifest.json",
+  manifest: "/mts/manifest.json",
   icons: {
     icon: [
-      { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
+      { url: "/mts/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/mts/icons/icon-512.png", sizes: "512x512", type: "image/png" },
     ],
     apple: [
-      { url: "/icons/apple-touch-icon.png", sizes: "192x192", type: "image/png" },
+      { url: "/mts/icons/apple-touch-icon.png", sizes: "192x192", type: "image/png" },
     ],
     shortcut: [
-      { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/mts/icons/icon-192.png", sizes: "192x192", type: "image/png" },
     ],
   },
   appleWebApp: {
@@ -75,6 +75,7 @@ export default function RootLayout({
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <link rel="manifest" href="/mts/manifest.json" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen`}
