@@ -2,12 +2,12 @@
   "name": "TripScout - Trip Planning PWA",
   "short_name": "TripScout",
   "description": "Plan, forecast, and track your trip expenses with TripScout",
-  "start_url": "/mts/",
+  "start_url": "./mts/",
   "display": "standalone",
   "background_color": "#1e1033",
   "theme_color": "#7c3aed",
   "orientation": "portrait-primary",
-  "scope": "/mts/",
+  "scope": "./mts/",
   "icons": [
     {
       "src": "/icons/icon-192.png",
