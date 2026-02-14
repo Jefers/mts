@@ -2,33 +2,33 @@
   "name": "TripScout - Trip Planning PWA",
   "short_name": "TripScout",
   "description": "Plan, forecast, and track your trip expenses with TripScout",
-  "start_url": "./mts/",
+  "start_url": "/mts/",
   "display": "standalone",
   "background_color": "#1e1033",
   "theme_color": "#7c3aed",
   "orientation": "portrait-primary",
-  "scope": "./mts/",
+  "scope": "/mts/",
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "/mts/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "/mts/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-192.png",
+      "src": "/mts/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "/mts/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -41,15 +41,15 @@
       "name": "New Trip",
       "short_name": "New",
       "description": "Create a new trip",
-      "url": "/?action=new",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+      "url": "/mts/?action=new",
+      "icons": [{ "src": "/mts/icons/icon-192.png", "sizes": "192x192" }]
     },
     {
       "name": "History",
       "short_name": "History",
       "description": "View trip history",
-      "url": "/",
-      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+      "url": "/mts/",
+      "icons": [{ "src": "/mts/icons/icon-192.png", "sizes": "192x192" }]
     }
   ],
   "related_applications": [],
